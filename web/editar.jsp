@@ -65,8 +65,6 @@
                         </select>
                     </td>
                     
-                    <%--<td><input type="text"  value="<%= reg.getEstado() %>"></td>--%>
-                    
                 </tr>
                 <tr>
                     <td></td>
