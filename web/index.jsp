@@ -54,7 +54,7 @@
                             <td><%= item.getLugar() %></td>
                             <td><%= item.getEstado() %></td>
                             <td><a class="btn btn-success" href="MainServlet?op=editar&id=<%=item.getId() %>">Editar</a></td>
-                            <td><a class="btn btn-danger" href="MainServlet?op=eliminar&id=<%=item.getId() %>" onclick="return(confirm('Esta seguro de eliminar??'))">Eliminar</a></td>
+                            <td><a class="btn btn-danger" href="MainServlet?op=eliminar&id=<%=item.getId() %>" onclick="return(confirm('Esta seguro desea ELIMINAR este registro??'))">Eliminar</a></td>
                         </tr>
 
                         <%
