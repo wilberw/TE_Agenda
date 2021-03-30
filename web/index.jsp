@@ -25,12 +25,12 @@
     </head>
     <body>
         <div>
-            <div>
-                <div class="col-10">
+            <div class="row d-flex justify-content-center">
+                <div class="col-10" align="right">
                     <h1 class="text-center">Agenda Personal</h1>
-                    <a href="MainServlet?op=nuevo">Nuevo registro</a>
+                    <a href="MainServlet?op=nuevo"><h5>Nuevo Registro</h5></a>
                     <table class="table">
-                        <tr>
+                        <tr align="center" bgcolor="#7894B9">
                             <th>Id</th>
                             <th>Hora</th>
                             <th>Actividad</th>
@@ -47,8 +47,8 @@
                                 {
 
                         %>
-                        <tr>
-                            <td><%= item.getId() %></td>
+                        <tr align="center" bgcolor="#B3C5DE">
+                            <td ><%= item.getId() %></td>
                             <td><%= item.getHora() %></td>
                             <td><%= item.getActividad() %></td> 
                             <td><%= item.getLugar() %></td>
